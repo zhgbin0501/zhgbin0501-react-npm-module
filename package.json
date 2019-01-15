@@ -1,0 +1,27 @@
+{
+  "name": "npm-components-zhgbin0501",
+  "version": "1.0.0",
+  "description": "build react components as npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/zhgbin0501/npm-components-zhgbin0501"
+  },
+  "keywords": [
+    "npm",
+    "react",
+    "components"
+  ],
+  "author": "zhgbin0501",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
